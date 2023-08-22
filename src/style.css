@@ -15,7 +15,7 @@ form {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 12px;
   justify-content: center;
 }
 input {
