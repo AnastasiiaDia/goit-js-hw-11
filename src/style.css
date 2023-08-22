@@ -10,8 +10,6 @@ body {
 form {
   display: flex;
   gap: 8px;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 .gallery {
   margin: 10px;
@@ -22,11 +20,40 @@ form {
 }
 input {
   margin-left: auto;
-  /* margin-right: auto; */
+  border-radius: 8px;
 }
 
-button {
+.button-1 {
   margin-right: auto;
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
 }
 .photo-card {
   padding: 5px;
@@ -40,7 +67,6 @@ button {
 .info {
 }
 .loader {
-  /* color: #fff; */
   width: 48px;
   height: 48px;
   display: block;
