@@ -60,6 +60,7 @@ input {
   transition: transform 0.2s;
   background-color: pink;
   box-shadow: 4px 4px 4px 4px #855a6a;
+  border-radius: 4px;
 }
 .photo-card:hover {
   transform: scale(1.05);
