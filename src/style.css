@@ -18,6 +18,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  justify-content: center;
 }
 input {
   margin-left: auto;
@@ -28,7 +29,7 @@ button {
   margin-right: auto;
 }
 .photo-card {
-  padding: px;
+  padding: 5px;
   transition: transform 0.2s;
   background-color: pink;
   box-shadow: 4px 4px 4px 4px #855a6a;
